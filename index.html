@@ -6,17 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
     <link rel="stylesheet" type="text/css" href="styles.css"> 
-
 </head>
+
 <body>
-    <div id="page-container"> 
-    <h1> Sign Up Here</h1>
+    <div class="credit">
+        Image by:<a href="https://unsplash.com/@mischievous_penguins" target="new"> Casey Horner
+        </a>
+     </div> 
+    <div id="container" class="main"> 
+        <h1> Welcome to the world of Coffee! </h1>
+        <p>Have you ever thought about expresso! Coffee is a marvelously world that superceeds expectations 
+            and creates defies the boundaries of reality. Every flavour, scent, and marvelous combinations of texture. 
+            Join us to learn more about the boundless world of what coffee can do! Sign up!
+        </p>
+    
+        <div class="fullForm">
+            <form action="example.com/path" method="post">
+                <fieldset>
+            <div class="form">
+                <label for="first_name">First Name:</label>
+                <input type="text" id="first_name" name="first_name" placeholder="First Name">
+                <label for="last_name">Last Name:</label>
+                <input type="text" id="last_name" name="last_name" placeholder="Last Name">
+            </div>
+        
+            <div class="form"> 
+                <label for="user_email">Email Address: </label>
+                <input type="email" id="user_email" name="email" placeholder="hello@example.com">  
+            </div>
 
-
-
-    <footer id="footer"> "Image by "
-        <a href="https://unsplash.com/@aronvisuals"> Aron Visuals</a>
-        </footer>
+            <div class="form"> 
+                <label for="password-repeat">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Password" required> 
+                <input type="password" id="password-repeat" name="password" placeholder="Confim Password" required> 
+            </div>
+            </fieldset>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
     </div>
 </body>
 </html>
